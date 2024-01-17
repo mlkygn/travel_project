@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8em;
+    padding-top: 70px;
+}
+.btn-linear {
+    background: linear-gradient(119deg, rgba(32,156,187,1) 0%, rgba(28,160,227,1) 46%, rgba(19,119,191,1) 90%);
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: 600;
+}
