@@ -5,13 +5,13 @@ import logo from "../../assets/logo.svg";
 function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-white fixed-top">
+      <nav className="navbar navbar-expand-lg bg-white fixed-top shadow">
         <div className="container">
           <a className="navbar-brand" href="#">
             <img src={logo} width={50} alt="" />
             <span className="logo-text">My Travel</span>
           </a>
-          <button
+          <div
             className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
@@ -21,7 +21,7 @@ function Navbar() {
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>
-          </button>
+          </div>
           <div className="collapse navbar-collapse" id="navbarsExample05">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
