@@ -2,7 +2,12 @@
   --bs-card-border-radius: 20px;
   --bs-card-inner-border-radius: 20px;
   --bs-card-border-width:0px;
+  --bs-card-bg: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.main .card .card-img-top {
+  height: 200px;
+  object-fit: cover;
 }
 .main h3 {
   font-size: 18px;
@@ -11,4 +16,10 @@
 }
 .main h3 .underline {
   text-decoration: 2px underline #209cbb;
+}
+@media screen and (min-width: 900px) {
+  .main h3 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
 }
