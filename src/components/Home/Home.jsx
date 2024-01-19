@@ -44,7 +44,7 @@ function Home() {
             <div className="form-group">
               <input
                 type="range"
-                class="form-range"
+                className="form-range"
                 min="1000"
                 max="5000"
                 placeholder="Enter Time"
